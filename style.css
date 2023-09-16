@@ -26,10 +26,20 @@ section {
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 306px;
+    width: 300px;
     margin: 10px auto;
     background-color: #11213a;
     color: #04c0b2;
+}
+
+.game--container--nested {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100px;
+    margin: 10px auto;
+    background-color: #7f218a;
+    color: #37c2b9;
+
 }
 
 .game--status {
