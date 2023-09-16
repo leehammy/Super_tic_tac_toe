@@ -25,7 +25,8 @@ section {
 
 .game--container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 300px;
     margin: 10px auto;
     background-color: #11213a;
@@ -34,7 +35,8 @@ section {
 
 .game--container--nested {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 100px;
     margin: 10px auto;
     background-color: #7f218a;
